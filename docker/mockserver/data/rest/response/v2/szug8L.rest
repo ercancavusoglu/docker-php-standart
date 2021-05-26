@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<restMockResponse>
+    <body>&lt;?xml version="1.0" encoding="ISO-8859-9"?&gt;&#13;
+&lt;root&gt;&#13;
+  &lt;islem&gt;&#13;
+    &lt;sonuc&gt;1&lt;/sonuc&gt;&#13;
+    &lt;seferid&gt;${QUERY_STRING(query="Seferid")}&lt;/seferid&gt;&#13;
+    &lt;koltuk&gt;${QUERY_STRING(query="Koltuklar")}&lt;/koltuk&gt;&#13;
+    &lt;biletrefno&gt;101183587&lt;/biletrefno&gt;&#13;
+    &lt;adisoyadi&gt;${QUERY_STRING(query="AdiSoyadi")}&lt;/adisoyadi&gt;&#13;
+    &lt;hata&gt;&lt;/hata&gt;&#13;
+    &lt;Url3d&gt;&lt;/Url3d&gt;&#13;
+    &lt;UrlOrderid&gt;201908251625863ggwes1m&lt;/UrlOrderid&gt;&#13;
+  &lt;/islem&gt;&#13;
+&lt;/root&gt;</body>
+    <contentEncodings/>
+    <headerQueries/>
+    <httpHeaders/>
+    <httpStatusCode>200</httpStatusCode>
+    <id>szug8L</id>
+    <jsonPathExpressions/>
+    <methodId>M4tdsV</methodId>
+    <name>Success Response</name>
+    <parameterQueries/>
+    <status>ENABLED</status>
+    <usingExpressions>true</usingExpressions>
+    <xpathExpressions/>
+</restMockResponse>

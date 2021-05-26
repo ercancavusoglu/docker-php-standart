@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<restEvent>
+    <endDate>2020-04-06T13:02:06.798Z</endDate>
+    <id>5LjuIS</id>
+    <resourceName>Pay</resourceName>
+    <startDate>2020-04-06T13:02:06.796Z</startDate>
+    <applicationId>tKHq7R</applicationId>
+    <methodId>M4tdsV</methodId>
+    <projectId>8HDFB4</projectId>
+    <request>
+        <body></body>
+        <httpHeaders>
+            <httpHeader>
+                <name>host</name>
+                <value>172.20.0.7:8080</value>
+            </httpHeader>
+            <httpHeader>
+                <name>user-agent</name>
+                <value>GuzzleHttp/6.3.3 curl/7.67.0 PHP/7.2.29</value>
+            </httpHeader>
+            <httpHeader>
+                <name>xxx-request-id</name>
+                <value>buscc1c9a454165318f2ae6a72a78a20</value>
+            </httpHeader>
+            <httpHeader>
+                <name>xxx-method</name>
+                <value></value>
+            </httpHeader>
+            <httpHeader>
+                <name>xxx-started-at</name>
+                <value>1586178126.7912</value>
+            </httpHeader>
+        </httpHeaders>
+        <httpMethod>GET</httpMethod>
+        <httpParameters>
+            <httpParameter>
+                <name>Kalkis</name>
+                <value>3500</value>
+            </httpParameter>
+            <httpParameter>
+                <name>Varis</name>
+                <value>0900</value>
+            </httpParameter>
+            <httpParameter>
+                <name>Seferid</name>
+                <value>3043760</value>
+            </httpParameter>
+            <httpParameter>
+                <name>Koltuklar</name>
+                <value>33</value>
+            </httpParameter>
+            <httpParameter>
+                <name>AdiSoyadi</name>
+                <value>Cem Unalan</value>
+            </httpParameter>
+            <httpParameter>
+                <name>Cinsiyet</name>
+                <value>E</value>
+            </httpParameter>
+            <httpParameter>
+                <name>Telefon</name>
+                <value>905322484091</value>
+            </httpParameter>
+            <httpParameter>
+                <name>TcKimlik</name>
+                <value>46672855340</value>
+            </httpParameter>
+            <httpParameter>
+                <name>KartNo</name>
+                <value>444444xxxxxx4448</value>
+            </httpParameter>
+            <httpParameter>
+                <name>KartSk</name>
+                <value>062023</value>
+            </httpParameter>
+            <httpParameter>
+                <name>KartAdi</name>
+                <value>Cem Test</value>
+            </httpParameter>
+            <httpParameter>
+                <name>KartCvc</name>
+                <value>123</value>
+            </httpParameter>
+            <httpParameter>
+                <name>KurumID</name>
+                <value>7</value>
+            </httpParameter>
+            <httpParameter>
+                <name>KurumPassword</name>
+                <value>Jua73xlzQ4dU</value>
+            </httpParameter>
+        </httpParameters>
+        <uri>/Satisxml.php</uri>
+    </request>
+    <resourceId>mua316</resourceId>
+    <response>
+        <body>&lt;?xml version="1.0" encoding="ISO-8859-9"?&gt;&#13;
+&lt;root&gt;&#13;
+  &lt;islem&gt;&#13;
+    &lt;sonuc&gt;1&lt;/sonuc&gt;&#13;
+    &lt;seferid&gt;3043760&lt;/seferid&gt;&#13;
+    &lt;koltuk&gt;33&lt;/koltuk&gt;&#13;
+    &lt;biletrefno&gt;101183587&lt;/biletrefno&gt;&#13;
+    &lt;adisoyadi&gt;Cem Unalan&lt;/adisoyadi&gt;&#13;
+    &lt;hata&gt;&lt;/hata&gt;&#13;
+    &lt;Url3d&gt;&lt;/Url3d&gt;&#13;
+    &lt;UrlOrderid&gt;201908251625863ggwes1m&lt;/UrlOrderid&gt;&#13;
+  &lt;/islem&gt;&#13;
+&lt;/root&gt;</body>
+        <contentEncodings/>
+        <httpHeaders/>
+        <httpStatusCode>200</httpStatusCode>
+        <mockResponseName>Success Response</mockResponseName>
+    </response>
+</restEvent>

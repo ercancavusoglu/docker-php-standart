@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<restEvent>
+    <endDate>2020-08-11T22:14:09.853Z</endDate>
+    <id>kNw4DQ</id>
+    <resourceName>search request</resourceName>
+    <startDate>2020-08-11T22:14:09.851Z</startDate>
+    <applicationId>tKHq7R</applicationId>
+    <methodId>amFgT7</methodId>
+    <projectId>8HDFB4</projectId>
+    <request>
+        <body></body>
+        <httpHeaders>
+            <httpHeader>
+                <name>host</name>
+                <value>mockserver:8080</value>
+            </httpHeader>
+            <httpHeader>
+                <name>user-agent</name>
+                <value>GuzzleHttp/6.3.3 curl/7.69.1 PHP/7.2.32</value>
+            </httpHeader>
+            <httpHeader>
+                <name>xxx-request-id</name>
+                <value>bus71d8a322d1103378e36a0ecb513a0</value>
+            </httpHeader>
+            <httpHeader>
+                <name>xxx-method</name>
+                <value></value>
+            </httpHeader>
+            <httpHeader>
+                <name>x-request-id</name>
+                <value>bus71d8a322d1103378e36a0ecb513a0</value>
+            </httpHeader>
+            <httpHeader>
+                <name>x-provider</name>
+                <value>pamukkale</value>
+            </httpHeader>
+        </httpHeaders>
+        <httpMethod>GET</httpMethod>
+        <httpParameters>
+            <httpParameter>
+                <name>Kalkis</name>
+                <value>3400</value>
+            </httpParameter>
+            <httpParameter>
+                <name>Varis</name>
+                <value>6700</value>
+            </httpParameter>
+            <httpParameter>
+                <name>SeferTarih</name>
+                <value>15-09-2020</value>
+            </httpParameter>
+            <httpParameter>
+                <name>KurumID</name>
+                <value>7</value>
+            </httpParameter>
+            <httpParameter>
+                <name>KurumPassword</name>
+                <value>Jua73xlzQ4dU</value>
+            </httpParameter>
+        </httpParameters>
+        <uri>/Seferxml.php</uri>
+    </request>
+    <resourceId>76W5dV</resourceId>
+    <response>
+        <body>                           &#13;
+&#13;
+&lt;?xml version="1.0" encoding="ISO-8859-9"?&gt;&lt;root&gt;&#13;
+ &lt;sefer&gt;&#13;
+     &lt;id&gt;3014923&lt;/id&gt;&#13;
+     &lt;guzergah&gt;MARMARİS-ESKİŞEHİR-BURSA&lt;/guzergah&gt;&#13;
+     &lt;kalkistarihi&gt;departure_search_parameters&lt;/kalkistarihi&gt;&#13;
+     &lt;saat&gt;05:30&lt;/saat&gt;&#13;
+     &lt;Varsaat&gt;06:30&lt;/Varsaat&gt;&#13;
+     &lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+     &lt;model&gt;P146&lt;/model&gt;&#13;
+     &lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+     &lt;modelaciklama&gt;ARAÇ ÇİNE-AYDIN ÜZERİ GİDER yeni-otoban&lt;/modelaciklama&gt;&#13;
+     &lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+     &lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+     &lt;normal&gt;17.00&lt;/normal&gt;&#13;
+     &lt;hemenal&gt;17.00&lt;/hemenal&gt;&#13;
+     &lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+     &lt;ToplamYolcu&gt;1&lt;/ToplamYolcu&gt;&#13;
+     &lt;Durak&gt;*(05:30)KÜTAHYA*(06:30)ESKİŞEHİR*(07:00)BOZÜYÜK*(07:45)İNEGÖL*(08:30)BURSA&lt;/Durak&gt;&#13;
+     &lt;guzduraklar&gt;*(20:30)MARMARİS,*(20:55)AKYAKA (YOL AYRIMI),*(21:30)MUĞLA,*(21:50)YATAĞAN,*(22:30)ÇİNE,*(23:00)AYDIN,*(23:45)NAZİLLİ,*(01:00)DENİZLİ,*(02:15)KAPTAN MOLA Y.,*(05:30)KÜTAHYA,*(06:30)ESKİŞEHİR,*(07:00)BOZÜYÜK,*(07:45)İNEGÖL,*(08:30)BURSA&lt;/guzduraklar&gt;&#13;
+     &lt;kalkisvarisduraklar&gt;*(05:30)KÜTAHYA,*(06:30)ESKİŞEHİR&lt;/kalkisvarisduraklar&gt;&#13;
+     &lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+     &lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+     &lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+     &lt;satilabilirkoltuksay&gt;36&lt;/satilabilirkoltuksay&gt;&#13;
+     &lt;kalkis&gt;3400&lt;/kalkis&gt;&#13;
+     &lt;varis&gt;6700&lt;/varis&gt;&#13;
+&lt;/sefer&gt;&#13;
+ &lt;sefer&gt;&#13;
+     &lt;id&gt;3043760&lt;/id&gt;&#13;
+     &lt;guzergah&gt;İZMİR-ESKİŞEHİR&lt;/guzergah&gt;&#13;
+     &lt;kalkistarihi&gt;departure_search_parameters&lt;/kalkistarihi&gt;&#13;
+     &lt;saat&gt;06:00&lt;/saat&gt;&#13;
+     &lt;Varsaat&gt;07:15&lt;/Varsaat&gt;&#13;
+     &lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+     &lt;model&gt;P146&lt;/model&gt;&#13;
+     &lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+     &lt;modelaciklama&gt;&lt;/modelaciklama&gt;&#13;
+     &lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+     &lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+     &lt;normal&gt;17.00&lt;/normal&gt;&#13;
+     &lt;hemenal&gt;17.00&lt;/hemenal&gt;&#13;
+     &lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+     &lt;ToplamYolcu&gt;0&lt;/ToplamYolcu&gt;&#13;
+     &lt;Durak&gt;*(06:00)KÜTAHYA*(07:15)ESKİŞEHİR&lt;/Durak&gt;&#13;
+     &lt;guzduraklar&gt;*(01:00)İZMİR,*(04:00)UŞAK,*(06:00)KÜTAHYA,*(07:15)ESKİŞEHİR&lt;/guzduraklar&gt;&#13;
+     &lt;kalkisvarisduraklar&gt;*(06:00)KÜTAHYA,*(07:15)ESKİŞEHİR&lt;/kalkisvarisduraklar&gt;&#13;
+     &lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+     &lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+     &lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+     &lt;satilabilirkoltuksay&gt;37&lt;/satilabilirkoltuksay&gt;&#13;
+     &lt;kalkis&gt;3400&lt;/kalkis&gt;&#13;
+     &lt;varis&gt;6700&lt;/varis&gt;&#13;
+&lt;/sefer&gt;&#13;
+ &lt;sefer&gt;&#13;
+     &lt;id&gt;3041563&lt;/id&gt;&#13;
+     &lt;guzergah&gt;İZMİR-FETHİYE-ESKİŞEHİR-BURSA&lt;/guzergah&gt;&#13;
+     &lt;kalkistarihi&gt;departure_search_parameters&lt;/kalkistarihi&gt;&#13;
+     &lt;saat&gt;06:45&lt;/saat&gt;&#13;
+     &lt;Varsaat&gt;07:55&lt;/Varsaat&gt;&#13;
+     &lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+     &lt;model&gt;P146&lt;/model&gt;&#13;
+     &lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+     &lt;modelaciklama&gt;&lt;/modelaciklama&gt;&#13;
+     &lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL jumbo&lt;/modelozellik&gt;&#13;
+     &lt;aractipi&gt;2+2&lt;/aractipi&gt;&#13;
+     &lt;normal&gt;17.00&lt;/normal&gt;&#13;
+     &lt;hemenal&gt;17.00&lt;/hemenal&gt;&#13;
+     &lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+     &lt;ToplamYolcu&gt;0&lt;/ToplamYolcu&gt;&#13;
+     &lt;Durak&gt;*(06:45)KÜTAHYA*(08:00)ESKİŞEHİR*(08:30)BOZÜYÜK*(09:30)İNEGÖL*(10:15)BURSA&lt;/Durak&gt;&#13;
+     &lt;guzduraklar&gt;*(17:00)İZMİR,*(18:30)AYDIN,*(18:50)ÇİNE,*(19:30)YATAĞAN,*(20:00)MUĞLA,*(20:30)AKYAKA (YOL AYRIMI),*(21:00)KÖYCEĞİZ,*(21:30)ORTACA,*(21:45)DALAMAN,*(23:00)FETHİYE,*(02:00)DENİZLİ,*(03:15)DİNAR,*(05:00)KOLAYLI MOLA Y.,*(05:15)AFYON,*(06:45)KÜTAHYA,*(08:00)ESKİŞEHİR,*(08:30)BOZÜYÜK,*(09:30)İNEGÖL,*(10:15)BURSA&lt;/guzduraklar&gt;&#13;
+     &lt;kalkisvarisduraklar&gt;*(06:45)KÜTAHYA,*(08:00)ESKİŞEHİR&lt;/kalkisvarisduraklar&gt;&#13;
+     &lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+     &lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+     &lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+     &lt;satilabilirkoltuksay&gt;0&lt;/satilabilirkoltuksay&gt;&#13;
+     &lt;kalkis&gt;3400&lt;/kalkis&gt;&#13;
+     &lt;varis&gt;6700&lt;/varis&gt;&#13;
+&lt;/sefer&gt;&#13;
+ &lt;sefer&gt;&#13;
+     &lt;id&gt;3015045&lt;/id&gt;&#13;
+     &lt;guzergah&gt;BODRUM-İZMİR-ESKİŞEHİR&lt;/guzergah&gt;&#13;
+     &lt;kalkistarihi&gt;departure_search_parameters&lt;/kalkistarihi&gt;&#13;
+     &lt;saat&gt;07:00&lt;/saat&gt;&#13;
+     &lt;Varsaat&gt;08:00&lt;/Varsaat&gt;&#13;
+     &lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+     &lt;model&gt;P146&lt;/model&gt;&#13;
+     &lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+     &lt;modelaciklama&gt;&lt;/modelaciklama&gt;&#13;
+     &lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+     &lt;aractipi&gt;1+1&lt;/aractipi&gt;&#13;
+     &lt;normal&gt;17.00&lt;/normal&gt;&#13;
+     &lt;hemenal&gt;17.00&lt;/hemenal&gt;&#13;
+     &lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+     &lt;ToplamYolcu&gt;0&lt;/ToplamYolcu&gt;&#13;
+     &lt;Durak&gt;*(07:00)KÜTAHYA*(08:00)ESKİŞEHİR&lt;/Durak&gt;&#13;
+     &lt;guzduraklar&gt;*(22:30)BODRUM,*(23:20)MİLAS,*(00:30)SÖKE,*(02:00)İZMİR,*(05:00)UŞAK,*(07:00)KÜTAHYA,*(08:00)ESKİŞEHİR&lt;/guzduraklar&gt;&#13;
+     &lt;kalkisvarisduraklar&gt;*(07:00)KÜTAHYA,*(08:00)ESKİŞEHİR&lt;/kalkisvarisduraklar&gt;&#13;
+     &lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+     &lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+     &lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+     &lt;satilabilirkoltuksay&gt;37&lt;/satilabilirkoltuksay&gt;&#13;
+     &lt;kalkis&gt;3400&lt;/kalkis&gt;&#13;
+     &lt;varis&gt;6700&lt;/varis&gt;&#13;
+&lt;/sefer&gt;&#13;
+ &lt;sefer&gt;&#13;
+     &lt;id&gt;3056588&lt;/id&gt;&#13;
+     &lt;guzergah&gt;İZMİR-ESKİŞEHİR&lt;/guzergah&gt;&#13;
+     &lt;kalkistarihi&gt;departure_search_parameters&lt;/kalkistarihi&gt;&#13;
+     &lt;saat&gt;13:45&lt;/saat&gt;&#13;
+     &lt;Varsaat&gt;14:45&lt;/Varsaat&gt;&#13;
+     &lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+     &lt;model&gt;P146&lt;/model&gt;&#13;
+     &lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+     &lt;modelaciklama&gt;&lt;/modelaciklama&gt;&#13;
+     &lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+     &lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+     &lt;normal&gt;17.00&lt;/normal&gt;&#13;
+     &lt;hemenal&gt;17.00&lt;/hemenal&gt;&#13;
+     &lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+     &lt;ToplamYolcu&gt;0&lt;/ToplamYolcu&gt;&#13;
+     &lt;Durak&gt;*(13:45)KÜTAHYA*(14:45)ESKİŞEHİR&lt;/Durak&gt;&#13;
+     &lt;guzduraklar&gt;*(08:30)İZMİR,*(11:40)UŞAK,*(13:45)KÜTAHYA,*(14:45)ESKİŞEHİR&lt;/guzduraklar&gt;&#13;
+     &lt;kalkisvarisduraklar&gt;*(13:45)KÜTAHYA,*(14:45)ESKİŞEHİR&lt;/kalkisvarisduraklar&gt;&#13;
+     &lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+     &lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+     &lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+     &lt;satilabilirkoltuksay&gt;37&lt;/satilabilirkoltuksay&gt;&#13;
+     &lt;kalkis&gt;3400&lt;/kalkis&gt;&#13;
+     &lt;varis&gt;6700&lt;/varis&gt;&#13;
+&lt;/sefer&gt;&#13;
+ &lt;sefer&gt;&#13;
+     &lt;id&gt;3041442&lt;/id&gt;&#13;
+     &lt;guzergah&gt;AYDIN-ESKİŞEHİR&lt;/guzergah&gt;&#13;
+     &lt;kalkistarihi&gt;departure_search_parameters&lt;/kalkistarihi&gt;&#13;
+     &lt;saat&gt;14:30&lt;/saat&gt;&#13;
+     &lt;Varsaat&gt;15:35&lt;/Varsaat&gt;&#13;
+     &lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+     &lt;model&gt;P146&lt;/model&gt;&#13;
+     &lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+     &lt;modelaciklama&gt;&lt;/modelaciklama&gt;&#13;
+     &lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+     &lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+     &lt;normal&gt;17.00&lt;/normal&gt;&#13;
+     &lt;hemenal&gt;17.00&lt;/hemenal&gt;&#13;
+     &lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+     &lt;ToplamYolcu&gt;0&lt;/ToplamYolcu&gt;&#13;
+     &lt;Durak&gt;*(14:30)KÜTAHYA*(15:45)ESKİŞEHİR&lt;/Durak&gt;&#13;
+     &lt;guzduraklar&gt;*(07:00)AYDIN,*(08:00)NAZİLLİ,*(08:45)SARAYKÖY,*(09:30)DENİZLİ,*(10:30)DAZKIRI,*(11:00)DİNAR,*(11:45)SANDIKLI,*(13:00)AFYON MOLA Y.,*(13:00)AFYON,*(14:30)KÜTAHYA,*(15:45)ESKİŞEHİR&lt;/guzduraklar&gt;&#13;
+     &lt;kalkisvarisduraklar&gt;*(14:30)KÜTAHYA,*(15:45)ESKİŞEHİR&lt;/kalkisvarisduraklar&gt;&#13;
+     &lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+     &lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+     &lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+     &lt;satilabilirkoltuksay&gt;37&lt;/satilabilirkoltuksay&gt;&#13;
+     &lt;kalkis&gt;3400&lt;/kalkis&gt;&#13;
+     &lt;varis&gt;6700&lt;/varis&gt;&#13;
+&lt;/sefer&gt;&#13;
+ &lt;sefer&gt;&#13;
+     &lt;id&gt;3045409&lt;/id&gt;&#13;
+     &lt;guzergah&gt;İZMİR-DENİZLİ-ESKİŞEHİR-BURSA&lt;/guzergah&gt;&#13;
+     &lt;kalkistarihi&gt;departure_search_parameters&lt;/kalkistarihi&gt;&#13;
+     &lt;saat&gt;18:00&lt;/saat&gt;&#13;
+     &lt;Varsaat&gt;19:15&lt;/Varsaat&gt;&#13;
+     &lt;plaka&gt;MERTRAV46&lt;/plaka&gt;&#13;
+     &lt;model&gt;M138&lt;/model&gt;&#13;
+     &lt;modelkoltuksay&gt;46&lt;/modelkoltuksay&gt;&#13;
+     &lt;modelaciklama&gt;&lt;/modelaciklama&gt;&#13;
+     &lt;modelozellik&gt;TRAVEGO EKRANLI PRIZ TEKNOBUS&lt;/modelozellik&gt;&#13;
+     &lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+     &lt;normal&gt;16.00&lt;/normal&gt;&#13;
+     &lt;hemenal&gt;16.00&lt;/hemenal&gt;&#13;
+     &lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+     &lt;ToplamYolcu&gt;0&lt;/ToplamYolcu&gt;&#13;
+     &lt;Durak&gt;*(18:00)KÜTAHYA*(19:15)ESKİŞEHİR*(20:00)BOZÜYÜK*(20:45)İNEGÖL*(21:30)BURSA&lt;/Durak&gt;&#13;
+     &lt;guzduraklar&gt;*(09:30)İZMİR,*(10:50)AYDIN,*(11:45)NAZİLLİ,*(12:30)SARAYKÖY,*(13:15)DENİZLİ,*(14:15)DAZKIRI,*(14:35)DİNAR,*(15:15)SANDIKLI,*(16:50)AFYON MOLA Y.,*(16:50)AFYON,*(18:00)KÜTAHYA,*(19:15)ESKİŞEHİR,*(20:00)BOZÜYÜK,*(20:45)İNEGÖL,*(21:30)BURSA&lt;/guzduraklar&gt;&#13;
+     &lt;kalkisvarisduraklar&gt;*(18:00)KÜTAHYA,*(19:15)ESKİŞEHİR&lt;/kalkisvarisduraklar&gt;&#13;
+     &lt;modelozellik&gt;TRAVEGO EKRANLI PRIZ TEKNOBUS&lt;/modelozellik&gt;&#13;
+     &lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+     &lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+     &lt;satilabilirkoltuksay&gt;46&lt;/satilabilirkoltuksay&gt;&#13;
+     &lt;kalkis&gt;3400&lt;/kalkis&gt;&#13;
+     &lt;varis&gt;6700&lt;/varis&gt;&#13;
+&lt;/sefer&gt;&#13;
+ &lt;sefer&gt;&#13;
+     &lt;id&gt;3012423&lt;/id&gt;&#13;
+     &lt;guzergah&gt;MARMARİS-ESKİŞEHİR&lt;/guzergah&gt;&#13;
+     &lt;kalkistarihi&gt;departure_search_parameters&lt;/kalkistarihi&gt;&#13;
+     &lt;saat&gt;19:45&lt;/saat&gt;&#13;
+     &lt;Varsaat&gt;20:45&lt;/Varsaat&gt;&#13;
+     &lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+     &lt;model&gt;P146&lt;/model&gt;&#13;
+     &lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+     &lt;modelaciklama&gt;&lt;/modelaciklama&gt;&#13;
+     &lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+     &lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+     &lt;normal&gt;17.00&lt;/normal&gt;&#13;
+     &lt;hemenal&gt;17.00&lt;/hemenal&gt;&#13;
+     &lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+     &lt;ToplamYolcu&gt;0&lt;/ToplamYolcu&gt;&#13;
+     &lt;Durak&gt;*(19:45)KÜTAHYA*(20:45)ESKİŞEHİR&lt;/Durak&gt;&#13;
+     &lt;guzduraklar&gt;*(11:15)MARMARİS,*(11:35)AKYAKA (YOL AYRIMI),*(12:30)MUĞLA,*(13:30)KALE,*(13:45)TAVAS,*(15:01)DENİZLİ,*(16:01)DAZKIRI,*(16:41)KAPTAN MOLA Y.,*(16:45)DİNAR,*(17:46)SANDIKLI,*(18:30)AFYON,*(19:45)KÜTAHYA,*(20:45)ESKİŞEHİR&lt;/guzduraklar&gt;&#13;
+     &lt;kalkisvarisduraklar&gt;*(19:45)KÜTAHYA,*(20:45)ESKİŞEHİR&lt;/kalkisvarisduraklar&gt;&#13;
+     &lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+     &lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+     &lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+     &lt;satilabilirkoltuksay&gt;37&lt;/satilabilirkoltuksay&gt;&#13;
+     &lt;kalkis&gt;3400&lt;/kalkis&gt;&#13;
+     &lt;varis&gt;6700&lt;/varis&gt;&#13;
+&lt;/sefer&gt;&#13;
+ &lt;sefer&gt;&#13;
+     &lt;id&gt;3043699&lt;/id&gt;&#13;
+     &lt;guzergah&gt;İZMİR-ESKİŞEHİR&lt;/guzergah&gt;&#13;
+     &lt;kalkistarihi&gt;departure_search_parameters&lt;/kalkistarihi&gt;&#13;
+     &lt;saat&gt;21:45&lt;/saat&gt;&#13;
+     &lt;Varsaat&gt;22:45&lt;/Varsaat&gt;&#13;
+     &lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+     &lt;model&gt;P146&lt;/model&gt;&#13;
+     &lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+     &lt;modelaciklama&gt;&lt;/modelaciklama&gt;&#13;
+     &lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+     &lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+     &lt;normal&gt;17.00&lt;/normal&gt;&#13;
+     &lt;hemenal&gt;17.00&lt;/hemenal&gt;&#13;
+     &lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+     &lt;ToplamYolcu&gt;0&lt;/ToplamYolcu&gt;&#13;
+     &lt;Durak&gt;*(21:45)KÜTAHYA*(22:45)ESKİŞEHİR&lt;/Durak&gt;&#13;
+     &lt;guzduraklar&gt;*(16:30)İZMİR,*(19:40)UŞAK,*(21:45)KÜTAHYA,*(22:45)ESKİŞEHİR&lt;/guzduraklar&gt;&#13;
+     &lt;kalkisvarisduraklar&gt;*(21:45)KÜTAHYA,*(22:45)ESKİŞEHİR&lt;/kalkisvarisduraklar&gt;&#13;
+     &lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+     &lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+     &lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+     &lt;satilabilirkoltuksay&gt;37&lt;/satilabilirkoltuksay&gt;&#13;
+     &lt;kalkis&gt;3400&lt;/kalkis&gt;&#13;
+     &lt;varis&gt;6700&lt;/varis&gt;&#13;
+&lt;/sefer&gt;&#13;
+ &lt;sefer&gt;&#13;
+     &lt;id&gt;3014802&lt;/id&gt;&#13;
+     &lt;guzergah&gt;BODRUM-AYDIN-ESKİŞEHİR&lt;/guzergah&gt;&#13;
+     &lt;kalkistarihi&gt;departure_search_parameters&lt;/kalkistarihi&gt;&#13;
+     &lt;saat&gt;22:15&lt;/saat&gt;&#13;
+     &lt;Varsaat&gt;22:40&lt;/Varsaat&gt;&#13;
+     &lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+     &lt;model&gt;P146&lt;/model&gt;&#13;
+     &lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+     &lt;modelaciklama&gt;&lt;/modelaciklama&gt;&#13;
+     &lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+     &lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+     &lt;normal&gt;17.00&lt;/normal&gt;&#13;
+     &lt;hemenal&gt;17.00&lt;/hemenal&gt;&#13;
+     &lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+     &lt;ToplamYolcu&gt;0&lt;/ToplamYolcu&gt;&#13;
+     &lt;Durak&gt;*(22:15)KÜTAHYA*(23:00)ESKİŞEHİR&lt;/Durak&gt;&#13;
+     &lt;guzduraklar&gt;*(12:00)BODRUM,*(13:00)MİLAS,*(13:35)YATAĞAN,*(14:15)ÇİNE,*(15:00)AYDIN,*(16:00)NAZİLLİ,*(16:45)SARAYKÖY,*(17:30)DENİZLİ,*(18:30)DAZKIRI,*(19:10)KAPTAN MOLA Y.,*(19:30)DİNAR,*(20:15)SANDIKLI,*(21:00)AFYON,*(22:15)KÜTAHYA,*(23:00)ESKİŞEHİR&lt;/guzduraklar&gt;&#13;
+     &lt;kalkisvarisduraklar&gt;*(22:15)KÜTAHYA,*(23:00)ESKİŞEHİR&lt;/kalkisvarisduraklar&gt;&#13;
+     &lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+     &lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+     &lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+     &lt;satilabilirkoltuksay&gt;36&lt;/satilabilirkoltuksay&gt;&#13;
+     &lt;kalkis&gt;3400&lt;/kalkis&gt;&#13;
+     &lt;varis&gt;6700&lt;/varis&gt;&#13;
+&lt;/sefer&gt;&lt;/root&gt;</body>
+        <contentEncodings/>
+        <httpHeaders/>
+        <httpStatusCode>200</httpStatusCode>
+        <mockResponseName>search response</mockResponseName>
+    </response>
+</restEvent>

@@ -1,0 +1,42 @@
+version: '2'
+options:
+  compose-file-path: './docker-compose.yml'
+#  compose-dev-file-path: './docker-compose-dev.yml'
+  verbose: true
+syncs:
+  vendor-sync:
+    src: './vendor/'
+    sync_strategy: 'native_osx'
+    sync_args: '--delete'
+    sync_host_port: 10874
+    sync_userid: '1'
+    sync_excludes: ["bin/"]
+    notify_terminal: true
+  node-modules-sync:
+    src: './node_modules/'
+    sync_strategy: 'native_osx'
+    sync_args: '--delete'
+    sync_host_port: 10875
+    sync_userid: '1'
+    notify_terminal: true
+  app-sync:
+    src: './'
+    sync_strategy: 'native_osx'
+    sync_host_port: 10877
+    sync_userid: '1'
+#    sync_args: '-prefer newer -copyonconflict'
+    sync_excludes:
+      - "docker/elasticsearch/data"
+      - "docker/mysql/data"
+      - "docker/mockserver/data/rest/event"
+      - "docker/mockserver/data/soap/event"
+      - "docker/nginx/logs"
+      - "var/cache"
+      - "var/log"
+      - "var/logs"
+      - "var/sessions"
+      - "vendor"
+      - "node_modules"
+      - ".idea"
+      - ".git"
+    notify_terminal: true

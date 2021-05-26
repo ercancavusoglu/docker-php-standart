@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<restMockResponse>
+    <body> &lt;?xml version="1.0" encoding="ISO-8859-9"?&gt;&#13;
+&lt;root&gt;&#13;
+  &lt;sonuc&gt;1&lt;/sonuc&gt;&#13;
+  &lt;pnrnumber&gt;${QUERY_STRING(query="SeferBiletid")}&lt;/pnrnumber&gt;&#13;
+  &lt;hatakodu&gt;0&lt;/hatakodu&gt;&#13;
+  &lt;aciklama&gt;Basarili&lt;/aciklama&gt;&#13;
+&lt;/root&gt;           &#13;
+&#13;
+</body>
+    <contentEncodings/>
+    <headerQueries/>
+    <httpHeaders/>
+    <httpStatusCode>200</httpStatusCode>
+    <id>FKn9wr</id>
+    <jsonPathExpressions/>
+    <methodId>vSDBQl</methodId>
+    <name>Success Response</name>
+    <parameterQueries/>
+    <status>ENABLED</status>
+    <usingExpressions>true</usingExpressions>
+    <xpathExpressions/>
+</restMockResponse>

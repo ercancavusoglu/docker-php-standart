@@ -1,0 +1,1 @@
+FROM blacktop/elasticsearch:5.6

@@ -1,0 +1,6 @@
+docker/elasticsearch/data/*
+docker/go/data/*
+docker/php/data/*
+docker/mysql/data/*
+docker/nginx/logs/*
+.idea

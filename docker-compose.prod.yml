@@ -1,0 +1,7 @@
+php:
+    build:
+      context: ./docker/prod/php
+    ports:
+      - 9000:9000
+    volumes:
+      - .:/var/www/bus:cached

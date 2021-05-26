@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<restEvent>
+    <endDate>2020-04-06T08:07:37.499Z</endDate>
+    <id>GfcjFN</id>
+    <resourceName>search request</resourceName>
+    <startDate>2020-04-06T08:07:37.499Z</startDate>
+    <applicationId>tKHq7R</applicationId>
+    <methodId>amFgT7</methodId>
+    <projectId>8HDFB4</projectId>
+    <request>
+        <body></body>
+        <httpHeaders>
+            <httpHeader>
+                <name>host</name>
+                <value>localhost:8080</value>
+            </httpHeader>
+            <httpHeader>
+                <name>user-agent</name>
+                <value>insomnia/7.1.1</value>
+            </httpHeader>
+            <httpHeader>
+                <name>accept</name>
+                <value>*/*</value>
+            </httpHeader>
+        </httpHeaders>
+        <httpMethod>GET</httpMethod>
+        <httpParameters>
+            <httpParameter>
+                <name>KurumID</name>
+                <value>7</value>
+            </httpParameter>
+            <httpParameter>
+                <name>KurumPassword</name>
+                <value>Jua73xlzQ4dU</value>
+            </httpParameter>
+            <httpParameter>
+                <name>Kalkis</name>
+                <value>3401</value>
+            </httpParameter>
+            <httpParameter>
+                <name>Varis</name>
+                <value>3500</value>
+            </httpParameter>
+            <httpParameter>
+                <name>SeferTarih</name>
+                <value>28-03-2020</value>
+            </httpParameter>
+        </httpParameters>
+        <uri>/Seferxml.php</uri>
+    </request>
+    <resourceId>76W5dV</resourceId>
+    <response>
+        <body>&lt;?xml version="1.0" encoding="ISO-8859-9"?&gt;&#13;
+&lt;root&gt;&#13;
+	&lt;sefer&gt;&#13;
+		&lt;id&gt;3045693&lt;/id&gt;&#13;
+		&lt;guzergah&gt;ESENLER-KUŞADASI-DİDİM&lt;/guzergah&gt;&#13;
+		&lt;kalkistarihi&gt;28/03/2020&lt;/kalkistarihi&gt;&#13;
+		&lt;saat&gt;00:24&lt;/saat&gt;&#13;
+		&lt;Varsaat&gt;07:00&lt;/Varsaat&gt;&#13;
+		&lt;plaka&gt;MERTRSMO37&lt;/plaka&gt;&#13;
+		&lt;model&gt;P177&lt;/model&gt;&#13;
+		&lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+		&lt;modelaciklama&gt; ** YENİ OTOBANDAN GİDER **&lt;/modelaciklama&gt;&#13;
+		&lt;modelozellik&gt;TOURISMO EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+		&lt;normal&gt;104.&lt;/normal&gt;&#13;
+		&lt;hemenal&gt;104.00&lt;/hemenal&gt;&#13;
+		&lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+		&lt;ToplamYolcu&gt;0&lt;/ToplamYolcu&gt;&#13;
+		&lt;Durak&gt;*(00:24)İSTANBUL-AVRUPA(ALİBEYKÖY*(01:45)İSTANBUL-ANADOLU(DUDULLU)*(04:59)KONAKOĞLU MOLA YERİ*(07:30)İZMİR*(08:30)SELÇUK*(08:45)KUŞADASI*(10:10)SÖKE*(10:30)DİDİM&lt;/Durak&gt;&#13;
+		&lt;guzduraklar&gt;*(23:59)İSTANBUL-AVRUPA(ESENLER),*(00:24)İSTANBUL-AVRUPA(ALİBEYKÖY,*(01:45)İSTANBUL-ANADOLU(DUDULLU),*(04:59)KONAKOĞLU MOLA YERİ,*(07:30)İZMİR,*(08:30)SELÇUK,*(08:45)KUŞADASI,*(10:10)SÖKE,*(10:30)DİDİM&lt;/guzduraklar&gt;&#13;
+		&lt;kalkisvarisduraklar&gt;*(00:24)İSTANBUL-AVRUPA(ALİBEYKÖY,*(01:45)İSTANBUL-ANADOLU(DUDULLU),*(04:59)KONAKOĞLU MOLA YERİ,*(07:30)İZMİR&lt;/kalkisvarisduraklar&gt;&#13;
+		&lt;modelozellik&gt;TOURISMO EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+		&lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+		&lt;satilabilirkoltuksay&gt;37&lt;/satilabilirkoltuksay&gt;&#13;
+		&lt;kalkis&gt;3401&lt;/kalkis&gt;&#13;
+		&lt;varis&gt;3500&lt;/varis&gt;&#13;
+	&lt;/sefer&gt;&#13;
+	&lt;sefer&gt;&#13;
+		&lt;id&gt;3046434&lt;/id&gt;&#13;
+		&lt;guzergah&gt;ESENLER-MARMARİS&lt;/guzergah&gt;&#13;
+		&lt;kalkistarihi&gt;28/03/2020&lt;/kalkistarihi&gt;&#13;
+		&lt;saat&gt;00:54&lt;/saat&gt;&#13;
+		&lt;Varsaat&gt;08:00&lt;/Varsaat&gt;&#13;
+		&lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+		&lt;model&gt;P146&lt;/model&gt;&#13;
+		&lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+		&lt;modelaciklama&gt; ** YENİ OTOBANDAN GİDER **&lt;/modelaciklama&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+		&lt;normal&gt;104.&lt;/normal&gt;&#13;
+		&lt;hemenal&gt;104.00&lt;/hemenal&gt;&#13;
+		&lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+		&lt;ToplamYolcu&gt;0&lt;/ToplamYolcu&gt;&#13;
+		&lt;Durak&gt;*(00:54)İSTANBUL-AVRUPA(ALİBEYKÖY*(02:15)İSTANBUL-ANADOLU(DUDULLU)*(05:15)KONAKOĞLU MOLA YERİ*(08:00)İZMİR*(09:30)AYDIN*(10:00)ÇİNE*(10:45)YATAĞAN*(11:00)MUĞLA*(11:15)AKYAKA (YOL AYRIMI)*(12:00)MARMARİS&lt;/Durak&gt;&#13;
+		&lt;guzduraklar&gt;*(00:30)İSTANBUL-AVRUPA(ESENLER),*(00:54)İSTANBUL-AVRUPA(ALİBEYKÖY,*(02:15)İSTANBUL-ANADOLU(DUDULLU),*(05:15)KONAKOĞLU MOLA YERİ,*(08:00)İZMİR,*(09:30)AYDIN,*(10:00)ÇİNE,*(10:45)YATAĞAN,*(11:00)MUĞLA,*(11:15)AKYAKA (YOL AYRIMI),*(12:00)MARMARİS&lt;/guzduraklar&gt;&#13;
+		&lt;kalkisvarisduraklar&gt;*(00:54)İSTANBUL-AVRUPA(ALİBEYKÖY,*(02:15)İSTANBUL-ANADOLU(DUDULLU),*(05:15)KONAKOĞLU MOLA YERİ,*(08:00)İZMİR&lt;/kalkisvarisduraklar&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+		&lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+		&lt;satilabilirkoltuksay&gt;37&lt;/satilabilirkoltuksay&gt;&#13;
+		&lt;kalkis&gt;3401&lt;/kalkis&gt;&#13;
+		&lt;varis&gt;3500&lt;/varis&gt;&#13;
+	&lt;/sefer&gt;&#13;
+	&lt;sefer&gt;&#13;
+		&lt;id&gt;3030972&lt;/id&gt;&#13;
+		&lt;guzergah&gt;ESENLER-MARMARİS&lt;/guzergah&gt;&#13;
+		&lt;kalkistarihi&gt;28/03/2020&lt;/kalkistarihi&gt;&#13;
+		&lt;saat&gt;09:25&lt;/saat&gt;&#13;
+		&lt;Varsaat&gt;16:00&lt;/Varsaat&gt;&#13;
+		&lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+		&lt;model&gt;P146&lt;/model&gt;&#13;
+		&lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+		&lt;modelaciklama&gt;** MOLASIZ ** YENİ OTOBANDAN GİDER **&lt;/modelaciklama&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+		&lt;normal&gt;104.&lt;/normal&gt;&#13;
+		&lt;hemenal&gt;104.00&lt;/hemenal&gt;&#13;
+		&lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+		&lt;ToplamYolcu&gt;1&lt;/ToplamYolcu&gt;&#13;
+		&lt;Durak&gt;*(09:25)İSTANBUL-AVRUPA(ALİBEYKÖY*(11:00)GEBZE*(12:30)BURSA*(16:30)İZMİR*(18:00)AYDIN*(18:20)ÇİNE*(19:00)YATAĞAN*(19:30)MUĞLA*(20:00)AKYAKA (YOL AYRIMI)*(20:30)MARMARİS&lt;/Durak&gt;&#13;
+		&lt;guzduraklar&gt;*(09:00)İSTANBUL-AVRUPA(ESENLER),*(09:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(11:00)GEBZE,*(12:30)BURSA,*(16:30)İZMİR,*(18:00)AYDIN,*(18:20)ÇİNE,*(19:00)YATAĞAN,*(19:30)MUĞLA,*(20:00)AKYAKA (YOL AYRIMI),*(20:30)MARMARİS&lt;/guzduraklar&gt;&#13;
+		&lt;kalkisvarisduraklar&gt;*(09:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(11:00)GEBZE,*(12:30)BURSA,*(16:30)İZMİR&lt;/kalkisvarisduraklar&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+		&lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+		&lt;satilabilirkoltuksay&gt;36&lt;/satilabilirkoltuksay&gt;&#13;
+		&lt;kalkis&gt;3401&lt;/kalkis&gt;&#13;
+		&lt;varis&gt;3500&lt;/varis&gt;&#13;
+	&lt;/sefer&gt;&#13;
+	&lt;sefer&gt;&#13;
+		&lt;id&gt;3026632&lt;/id&gt;&#13;
+		&lt;guzergah&gt;VİZE-ESENLER-İZMİR-DENİZLİ&lt;/guzergah&gt;&#13;
+		&lt;kalkistarihi&gt;28/03/2020&lt;/kalkistarihi&gt;&#13;
+		&lt;saat&gt;10:25&lt;/saat&gt;&#13;
+		&lt;Varsaat&gt;17:30&lt;/Varsaat&gt;&#13;
+		&lt;plaka&gt;MERTRSMO37&lt;/plaka&gt;&#13;
+		&lt;model&gt;P177&lt;/model&gt;&#13;
+		&lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+		&lt;modelaciklama&gt;** MOLASIZ ** YENİ OTOBANDAN GİDER **&lt;/modelaciklama&gt;&#13;
+		&lt;modelozellik&gt;TOURISMO EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+		&lt;normal&gt;104.&lt;/normal&gt;&#13;
+		&lt;hemenal&gt;104.00&lt;/hemenal&gt;&#13;
+		&lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+		&lt;ToplamYolcu&gt;0&lt;/ToplamYolcu&gt;&#13;
+		&lt;Durak&gt;*(10:25)İSTANBUL-AVRUPA(ALİBEYKÖY*(11:45)İSTANBUL-ANADOLU(DUDULLU)*(14:00)BURSA*(18:00)İZMİR*(19:45)AYDIN*(20:40)NAZİLLİ*(21:40)SARAYKÖY*(22:00)DENİZLİ&lt;/Durak&gt;&#13;
+		&lt;guzduraklar&gt;*(06:45)VİZE OTOGAR,*(07:15)SARAY OTOGAR,*(07:35)KAPAKLI,*(08:00)ÇERKEZKÖY OTOGAR,*(10:00)İSTANBUL-AVRUPA(ESENLER),*(10:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(11:45)İSTANBUL-ANADOLU(DUDULLU),*(14:00)BURSA,*(18:00)İZMİR,*(19:45)AYDIN,*(20:40)NAZİLLİ,*(21:40)SARAYKÖY,*(22:00)DENİZLİ&lt;/guzduraklar&gt;&#13;
+		&lt;kalkisvarisduraklar&gt;*(10:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(11:45)İSTANBUL-ANADOLU(DUDULLU),*(14:00)BURSA,*(18:00)İZMİR&lt;/kalkisvarisduraklar&gt;&#13;
+		&lt;modelozellik&gt;TOURISMO EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+		&lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+		&lt;satilabilirkoltuksay&gt;37&lt;/satilabilirkoltuksay&gt;&#13;
+		&lt;kalkis&gt;3401&lt;/kalkis&gt;&#13;
+		&lt;varis&gt;3500&lt;/varis&gt;&#13;
+	&lt;/sefer&gt;&#13;
+	&lt;sefer&gt;&#13;
+		&lt;id&gt;3052236&lt;/id&gt;&#13;
+		&lt;guzergah&gt;ALİBEYKÖY-DUDULLU-İZMİR&lt;/guzergah&gt;&#13;
+		&lt;kalkistarihi&gt;28/03/2020&lt;/kalkistarihi&gt;&#13;
+		&lt;saat&gt;11:45&lt;/saat&gt;&#13;
+		&lt;Varsaat&gt;17:45&lt;/Varsaat&gt;&#13;
+		&lt;plaka&gt;JUMBO34&lt;/plaka&gt;&#13;
+		&lt;model&gt;J500&lt;/model&gt;&#13;
+		&lt;modelkoltuksay&gt;34&lt;/modelkoltuksay&gt;&#13;
+		&lt;modelaciklama&gt;**YENİ OTOBANDAN GİDER**&lt;/modelaciklama&gt;&#13;
+		&lt;modelozellik&gt;JUMBO EKRANLI PRIZ BUYUKEKRAN ANDROID TEKNOBUS&lt;/modelozellik&gt;&#13;
+		&lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+		&lt;normal&gt;119.&lt;/normal&gt;&#13;
+		&lt;hemenal&gt;119.00&lt;/hemenal&gt;&#13;
+		&lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+		&lt;ToplamYolcu&gt;0&lt;/ToplamYolcu&gt;&#13;
+		&lt;Durak&gt;*(11:45)İSTANBUL-AVRUPA(ALİBEYKÖY*(13:00)İSTANBUL-ANADOLU(DUDULLU)*(14:30)BURSA*(17:45)İZMİR&lt;/Durak&gt;&#13;
+		&lt;guzduraklar&gt;*(11:45)İSTANBUL-AVRUPA(ALİBEYKÖY,*(13:00)İSTANBUL-ANADOLU(DUDULLU),*(14:30)BURSA,*(17:45)İZMİR&lt;/guzduraklar&gt;&#13;
+		&lt;kalkisvarisduraklar&gt;*(11:45)İSTANBUL-AVRUPA(ALİBEYKÖY,*(13:00)İSTANBUL-ANADOLU(DUDULLU),*(14:30)BURSA,*(17:45)İZMİR&lt;/kalkisvarisduraklar&gt;&#13;
+		&lt;modelozellik&gt;JUMBO EKRANLI PRIZ BUYUKEKRAN ANDROID TEKNOBUS&lt;/modelozellik&gt;&#13;
+		&lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+		&lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+		&lt;satilabilirkoltuksay&gt;34&lt;/satilabilirkoltuksay&gt;&#13;
+		&lt;kalkis&gt;3401&lt;/kalkis&gt;&#13;
+		&lt;varis&gt;3500&lt;/varis&gt;&#13;
+	&lt;/sefer&gt;&#13;
+	&lt;sefer&gt;&#13;
+		&lt;id&gt;3032366&lt;/id&gt;&#13;
+		&lt;guzergah&gt;ESENLER-MARMARİS&lt;/guzergah&gt;&#13;
+		&lt;kalkistarihi&gt;28/03/2020&lt;/kalkistarihi&gt;&#13;
+		&lt;saat&gt;12:25&lt;/saat&gt;&#13;
+		&lt;Varsaat&gt;19:00&lt;/Varsaat&gt;&#13;
+		&lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+		&lt;model&gt;P146&lt;/model&gt;&#13;
+		&lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+		&lt;modelaciklama&gt;** MOLASIZ ** YENİ OTOBANDAN GİDER **&lt;/modelaciklama&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+		&lt;normal&gt;104.&lt;/normal&gt;&#13;
+		&lt;hemenal&gt;104.00&lt;/hemenal&gt;&#13;
+		&lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+		&lt;ToplamYolcu&gt;1&lt;/ToplamYolcu&gt;&#13;
+		&lt;Durak&gt;*(12:25)İSTANBUL-AVRUPA(ALİBEYKÖY*(14:00)GEBZE*(15:30)BURSA*(19:30)İZMİR*(21:00)AYDIN*(21:30)ÇİNE*(22:00)YATAĞAN*(22:30)MUĞLA*(23:00)AKYAKA (YOL AYRIMI)*(23:00)MARMARİS&lt;/Durak&gt;&#13;
+		&lt;guzduraklar&gt;*(12:00)İSTANBUL-AVRUPA(ESENLER),*(12:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(14:00)GEBZE,*(15:30)BURSA,*(19:30)İZMİR,*(21:00)AYDIN,*(21:30)ÇİNE,*(22:00)YATAĞAN,*(22:30)MUĞLA,*(23:00)AKYAKA (YOL AYRIMI),*(23:00)MARMARİS&lt;/guzduraklar&gt;&#13;
+		&lt;kalkisvarisduraklar&gt;*(12:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(14:00)GEBZE,*(15:30)BURSA,*(19:30)İZMİR&lt;/kalkisvarisduraklar&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+		&lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+		&lt;satilabilirkoltuksay&gt;36&lt;/satilabilirkoltuksay&gt;&#13;
+		&lt;kalkis&gt;3401&lt;/kalkis&gt;&#13;
+		&lt;varis&gt;3500&lt;/varis&gt;&#13;
+	&lt;/sefer&gt;&#13;
+	&lt;sefer&gt;&#13;
+		&lt;id&gt;3032854&lt;/id&gt;&#13;
+		&lt;guzergah&gt;ESENLER-BODRUM&lt;/guzergah&gt;&#13;
+		&lt;kalkistarihi&gt;28/03/2020&lt;/kalkistarihi&gt;&#13;
+		&lt;saat&gt;13:25&lt;/saat&gt;&#13;
+		&lt;Varsaat&gt;20:00&lt;/Varsaat&gt;&#13;
+		&lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+		&lt;model&gt;P146&lt;/model&gt;&#13;
+		&lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+		&lt;modelaciklama&gt;** MOLASIZ ** YENİ OTOBANDAN GİDER **&lt;/modelaciklama&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+		&lt;normal&gt;104.&lt;/normal&gt;&#13;
+		&lt;hemenal&gt;104.00&lt;/hemenal&gt;&#13;
+		&lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+		&lt;ToplamYolcu&gt;1&lt;/ToplamYolcu&gt;&#13;
+		&lt;Durak&gt;*(13:25)İSTANBUL-AVRUPA(ALİBEYKÖY*(14:45)İSTANBUL-ANADOLU(DUDULLU)*(16:30)BURSA*(20:30)İZMİR*(21:45)SÖKE*(22:45)MİLAS*(23:45)BODRUM&lt;/Durak&gt;&#13;
+		&lt;guzduraklar&gt;*(13:00)İSTANBUL-AVRUPA(ESENLER),*(13:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(14:45)İSTANBUL-ANADOLU(DUDULLU),*(16:30)BURSA,*(20:30)İZMİR,*(21:45)SÖKE,*(22:45)MİLAS,*(23:45)BODRUM&lt;/guzduraklar&gt;&#13;
+		&lt;kalkisvarisduraklar&gt;*(13:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(14:45)İSTANBUL-ANADOLU(DUDULLU),*(16:30)BURSA,*(20:30)İZMİR&lt;/kalkisvarisduraklar&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+		&lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+		&lt;satilabilirkoltuksay&gt;36&lt;/satilabilirkoltuksay&gt;&#13;
+		&lt;kalkis&gt;3401&lt;/kalkis&gt;&#13;
+		&lt;varis&gt;3500&lt;/varis&gt;&#13;
+	&lt;/sefer&gt;&#13;
+	&lt;sefer&gt;&#13;
+		&lt;id&gt;3034141&lt;/id&gt;&#13;
+		&lt;guzergah&gt;ESENLER-MARMARİS&lt;/guzergah&gt;&#13;
+		&lt;kalkistarihi&gt;28/03/2020&lt;/kalkistarihi&gt;&#13;
+		&lt;saat&gt;15:25&lt;/saat&gt;&#13;
+		&lt;Varsaat&gt;22:30&lt;/Varsaat&gt;&#13;
+		&lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+		&lt;model&gt;P146&lt;/model&gt;&#13;
+		&lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+		&lt;modelaciklama&gt;** MOLASIZ ** YENİ OTOBANDAN GİDER **&lt;/modelaciklama&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+		&lt;normal&gt;104.00&lt;/normal&gt;&#13;
+		&lt;hemenal&gt;104.00&lt;/hemenal&gt;&#13;
+		&lt;aktiffiyat&gt;NORMAL&lt;/aktiffiyat&gt;&#13;
+		&lt;ToplamYolcu&gt;0&lt;/ToplamYolcu&gt;&#13;
+		&lt;Durak&gt;*(15:25)İSTANBUL-AVRUPA(ALİBEYKÖY*(16:45)İSTANBUL-ANADOLU(DUDULLU)*(17:30)GEBZE*(19:00)BURSA*(23:00)İZMİR*(00:30)AYDIN*(00:45)ÇİNE*(01:15)YATAĞAN*(01:45)MUĞLA*(02:30)AKYAKA (YOL AYRIMI)*(02:45)MARMARİS&lt;/Durak&gt;&#13;
+		&lt;guzduraklar&gt;*(15:00)İSTANBUL-AVRUPA(ESENLER),*(15:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(16:45)İSTANBUL-ANADOLU(DUDULLU),*(17:30)GEBZE,*(19:00)BURSA,*(23:00)İZMİR,*(00:30)AYDIN,*(00:45)ÇİNE,*(01:15)YATAĞAN,*(01:45)MUĞLA,*(02:30)AKYAKA (YOL AYRIMI),*(02:45)MARMARİS&lt;/guzduraklar&gt;&#13;
+		&lt;kalkisvarisduraklar&gt;*(15:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(16:45)İSTANBUL-ANADOLU(DUDULLU),*(17:30)GEBZE,*(19:00)BURSA,*(23:00)İZMİR&lt;/kalkisvarisduraklar&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+		&lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+		&lt;satilabilirkoltuksay&gt;37&lt;/satilabilirkoltuksay&gt;&#13;
+		&lt;kalkis&gt;3401&lt;/kalkis&gt;&#13;
+		&lt;varis&gt;3500&lt;/varis&gt;&#13;
+	&lt;/sefer&gt;&#13;
+	&lt;sefer&gt;&#13;
+		&lt;id&gt;3035330&lt;/id&gt;&#13;
+		&lt;guzergah&gt;ESENLER-FETHİYE&lt;/guzergah&gt;&#13;
+		&lt;kalkistarihi&gt;28/03/2020&lt;/kalkistarihi&gt;&#13;
+		&lt;saat&gt;17:25&lt;/saat&gt;&#13;
+		&lt;Varsaat&gt;00:00&lt;/Varsaat&gt;&#13;
+		&lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+		&lt;model&gt;P146&lt;/model&gt;&#13;
+		&lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+		&lt;modelaciklama&gt;** MOLASIZ ** YENİ OTOBANDAN GİDER **&lt;/modelaciklama&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+		&lt;normal&gt;104.&lt;/normal&gt;&#13;
+		&lt;hemenal&gt;104.00&lt;/hemenal&gt;&#13;
+		&lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+		&lt;ToplamYolcu&gt;0&lt;/ToplamYolcu&gt;&#13;
+		&lt;Durak&gt;*(17:25)İSTANBUL-AVRUPA(ALİBEYKÖY*(18:45)İSTANBUL-ANADOLU(DUDULLU)*(20:30)BURSA*(00:30)İZMİR*(01:50)AYDIN*(02:15)ÇİNE*(02:30)YATAĞAN*(03:00)MUĞLA*(03:30)AKYAKA (YOL AYRIMI)*(04:15)KÖYCEĞİZ*(04:45)ORTACA*(05:00)DALAMAN*(05:15)GÖCEK*(06:00)FETHİYE&lt;/Durak&gt;&#13;
+		&lt;guzduraklar&gt;*(17:00)İSTANBUL-AVRUPA(ESENLER),*(17:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(18:45)İSTANBUL-ANADOLU(DUDULLU),*(20:30)BURSA,*(00:30)İZMİR,*(01:50)AYDIN,*(02:15)ÇİNE,*(02:30)YATAĞAN,*(03:00)MUĞLA,*(03:30)AKYAKA (YOL AYRIMI),*(04:15)KÖYCEĞİZ,*(04:45)ORTACA,*(05:00)DALAMAN,*(05:15)GÖCEK,*(06:00)FETHİYE&lt;/guzduraklar&gt;&#13;
+		&lt;kalkisvarisduraklar&gt;*(17:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(18:45)İSTANBUL-ANADOLU(DUDULLU),*(20:30)BURSA,*(00:30)İZMİR&lt;/kalkisvarisduraklar&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+		&lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+		&lt;satilabilirkoltuksay&gt;37&lt;/satilabilirkoltuksay&gt;&#13;
+		&lt;kalkis&gt;3401&lt;/kalkis&gt;&#13;
+		&lt;varis&gt;3500&lt;/varis&gt;&#13;
+	&lt;/sefer&gt;&#13;
+	&lt;sefer&gt;&#13;
+		&lt;id&gt;3035731&lt;/id&gt;&#13;
+		&lt;guzergah&gt;ESENLER-DATÇA&lt;/guzergah&gt;&#13;
+		&lt;kalkistarihi&gt;28/03/2020&lt;/kalkistarihi&gt;&#13;
+		&lt;saat&gt;18:25&lt;/saat&gt;&#13;
+		&lt;Varsaat&gt;01:30&lt;/Varsaat&gt;&#13;
+		&lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+		&lt;model&gt;P146&lt;/model&gt;&#13;
+		&lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+		&lt;modelaciklama&gt;** MOLASIZ ** YENİ OTOBANDAN GİDER **&lt;/modelaciklama&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+		&lt;normal&gt;104.&lt;/normal&gt;&#13;
+		&lt;hemenal&gt;104.00&lt;/hemenal&gt;&#13;
+		&lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+		&lt;ToplamYolcu&gt;1&lt;/ToplamYolcu&gt;&#13;
+		&lt;Durak&gt;*(18:25)İSTANBUL-AVRUPA(ALİBEYKÖY*(19:45)İSTANBUL-ANADOLU(DUDULLU)*(20:30)GEBZE*(22:00)BURSA*(02:00)İZMİR*(03:20)AYDIN*(04:30)MUĞLA*(05:30)MARMARİS*(07:15)DATÇA&lt;/Durak&gt;&#13;
+		&lt;guzduraklar&gt;*(18:00)İSTANBUL-AVRUPA(ESENLER),*(18:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(19:45)İSTANBUL-ANADOLU(DUDULLU),*(20:30)GEBZE,*(22:00)BURSA,*(02:00)İZMİR,*(03:20)AYDIN,*(04:30)MUĞLA,*(05:30)MARMARİS,*(07:15)DATÇA&lt;/guzduraklar&gt;&#13;
+		&lt;kalkisvarisduraklar&gt;*(18:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(19:45)İSTANBUL-ANADOLU(DUDULLU),*(20:30)GEBZE,*(22:00)BURSA,*(02:00)İZMİR&lt;/kalkisvarisduraklar&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+		&lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+		&lt;satilabilirkoltuksay&gt;36&lt;/satilabilirkoltuksay&gt;&#13;
+		&lt;kalkis&gt;3401&lt;/kalkis&gt;&#13;
+		&lt;varis&gt;3500&lt;/varis&gt;&#13;
+	&lt;/sefer&gt;&#13;
+	&lt;sefer&gt;&#13;
+		&lt;id&gt;3036713&lt;/id&gt;&#13;
+		&lt;guzergah&gt;ESENLER-BODRUM&lt;/guzergah&gt;&#13;
+		&lt;kalkistarihi&gt;28/03/2020&lt;/kalkistarihi&gt;&#13;
+		&lt;saat&gt;20:25&lt;/saat&gt;&#13;
+		&lt;Varsaat&gt;03:00&lt;/Varsaat&gt;&#13;
+		&lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+		&lt;model&gt;P146&lt;/model&gt;&#13;
+		&lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+		&lt;modelaciklama&gt;*MOLASIZ* YENİ OTOBANDAN GİDER**&lt;/modelaciklama&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+		&lt;normal&gt;104.&lt;/normal&gt;&#13;
+		&lt;hemenal&gt;104.00&lt;/hemenal&gt;&#13;
+		&lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+		&lt;ToplamYolcu&gt;0&lt;/ToplamYolcu&gt;&#13;
+		&lt;Durak&gt;*(20:25)İSTANBUL-AVRUPA(ALİBEYKÖY*(21:45)İSTANBUL-ANADOLU(DUDULLU)*(23:30)BURSA*(03:30)İZMİR*(04:00)OTOBAN SHELL*(05:00)SÖKE*(06:00)MİLAS*(07:00)BODRUM&lt;/Durak&gt;&#13;
+		&lt;guzduraklar&gt;*(20:00)İSTANBUL-AVRUPA(ESENLER),*(20:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(21:45)İSTANBUL-ANADOLU(DUDULLU),*(23:30)BURSA,*(03:30)İZMİR,*(04:00)OTOBAN SHELL,*(05:00)SÖKE,*(06:00)MİLAS,*(07:00)BODRUM&lt;/guzduraklar&gt;&#13;
+		&lt;kalkisvarisduraklar&gt;*(20:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(21:45)İSTANBUL-ANADOLU(DUDULLU),*(23:30)BURSA,*(03:30)İZMİR&lt;/kalkisvarisduraklar&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+		&lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+		&lt;satilabilirkoltuksay&gt;37&lt;/satilabilirkoltuksay&gt;&#13;
+		&lt;kalkis&gt;3401&lt;/kalkis&gt;&#13;
+		&lt;varis&gt;3500&lt;/varis&gt;&#13;
+	&lt;/sefer&gt;&#13;
+	&lt;sefer&gt;&#13;
+		&lt;id&gt;3041755&lt;/id&gt;&#13;
+		&lt;guzergah&gt;ESENLER-DİDİM&lt;/guzergah&gt;&#13;
+		&lt;kalkistarihi&gt;28/03/2020&lt;/kalkistarihi&gt;&#13;
+		&lt;saat&gt;21:25&lt;/saat&gt;&#13;
+		&lt;Varsaat&gt;04:30&lt;/Varsaat&gt;&#13;
+		&lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+		&lt;model&gt;P146&lt;/model&gt;&#13;
+		&lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+		&lt;modelaciklama&gt;** YENİ OTOBANDAN GİDER **&lt;/modelaciklama&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+		&lt;normal&gt;104.&lt;/normal&gt;&#13;
+		&lt;hemenal&gt;104.00&lt;/hemenal&gt;&#13;
+		&lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+		&lt;ToplamYolcu&gt;3&lt;/ToplamYolcu&gt;&#13;
+		&lt;Durak&gt;*(21:25)İSTANBUL-AVRUPA(ALİBEYKÖY*(22:45)İSTANBUL-ANADOLU(DUDULLU)*(00:30)BURSA*(02:00)KONAKOĞLU MOLA YERİ*(05:00)İZMİR*(05:45)SELÇUK*(06:15)KUŞADASI*(06:45)SÖKE*(07:45)DİDİM&lt;/Durak&gt;&#13;
+		&lt;guzduraklar&gt;*(21:01)İSTANBUL-AVRUPA(ESENLER),*(21:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(22:45)İSTANBUL-ANADOLU(DUDULLU),*(00:30)BURSA,*(02:00)KONAKOĞLU MOLA YERİ,*(05:00)İZMİR,*(05:45)SELÇUK,*(06:15)KUŞADASI,*(06:45)SÖKE,*(07:45)DİDİM&lt;/guzduraklar&gt;&#13;
+		&lt;kalkisvarisduraklar&gt;*(21:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(22:45)İSTANBUL-ANADOLU(DUDULLU),*(00:30)BURSA,*(02:00)KONAKOĞLU MOLA YERİ,*(05:00)İZMİR&lt;/kalkisvarisduraklar&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+		&lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+		&lt;satilabilirkoltuksay&gt;34&lt;/satilabilirkoltuksay&gt;&#13;
+		&lt;kalkis&gt;3401&lt;/kalkis&gt;&#13;
+		&lt;varis&gt;3500&lt;/varis&gt;&#13;
+	&lt;/sefer&gt;&#13;
+	&lt;sefer&gt;&#13;
+		&lt;id&gt;3043140&lt;/id&gt;&#13;
+		&lt;guzergah&gt;ESENLER-BODRUM&lt;/guzergah&gt;&#13;
+		&lt;kalkistarihi&gt;28/03/2020&lt;/kalkistarihi&gt;&#13;
+		&lt;saat&gt;22:25&lt;/saat&gt;&#13;
+		&lt;Varsaat&gt;05:30&lt;/Varsaat&gt;&#13;
+		&lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+		&lt;model&gt;P146&lt;/model&gt;&#13;
+		&lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+		&lt;modelaciklama&gt; ** YENİ OTOBANDAN GİDER **&lt;/modelaciklama&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+		&lt;normal&gt;104.&lt;/normal&gt;&#13;
+		&lt;hemenal&gt;104.00&lt;/hemenal&gt;&#13;
+		&lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+		&lt;ToplamYolcu&gt;0&lt;/ToplamYolcu&gt;&#13;
+		&lt;Durak&gt;*(22:25)İSTANBUL-AVRUPA(ALİBEYKÖY*(23:45)İSTANBUL-ANADOLU(DUDULLU)*(01:30)BURSA*(03:00)KONAKOĞLU MOLA YERİ*(06:00)İZMİR*(07:15)SÖKE*(08:00)MİLAS*(09:30)BODRUM&lt;/Durak&gt;&#13;
+		&lt;guzduraklar&gt;*(22:00)İSTANBUL-AVRUPA(ESENLER),*(22:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(23:45)İSTANBUL-ANADOLU(DUDULLU),*(01:30)BURSA,*(03:00)KONAKOĞLU MOLA YERİ,*(06:00)İZMİR,*(07:15)SÖKE,*(08:00)MİLAS,*(09:30)BODRUM&lt;/guzduraklar&gt;&#13;
+		&lt;kalkisvarisduraklar&gt;*(22:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(23:45)İSTANBUL-ANADOLU(DUDULLU),*(01:30)BURSA,*(03:00)KONAKOĞLU MOLA YERİ,*(06:00)İZMİR&lt;/kalkisvarisduraklar&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+		&lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+		&lt;satilabilirkoltuksay&gt;37&lt;/satilabilirkoltuksay&gt;&#13;
+		&lt;kalkis&gt;3401&lt;/kalkis&gt;&#13;
+		&lt;varis&gt;3500&lt;/varis&gt;&#13;
+	&lt;/sefer&gt;&#13;
+	&lt;sefer&gt;&#13;
+		&lt;id&gt;3043801&lt;/id&gt;&#13;
+		&lt;guzergah&gt;ESENLER-FETHİYE&lt;/guzergah&gt;&#13;
+		&lt;kalkistarihi&gt;28/03/2020&lt;/kalkistarihi&gt;&#13;
+		&lt;saat&gt;22:55&lt;/saat&gt;&#13;
+		&lt;Varsaat&gt;05:30&lt;/Varsaat&gt;&#13;
+		&lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+		&lt;model&gt;P146&lt;/model&gt;&#13;
+		&lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+		&lt;modelaciklama&gt;** MOLASIZ ** YENİ OTOBANDAN GİDER **&lt;/modelaciklama&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+		&lt;normal&gt;104.&lt;/normal&gt;&#13;
+		&lt;hemenal&gt;104.00&lt;/hemenal&gt;&#13;
+		&lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+		&lt;ToplamYolcu&gt;0&lt;/ToplamYolcu&gt;&#13;
+		&lt;Durak&gt;*(22:55)İSTANBUL-AVRUPA(ALİBEYKÖY*(00:15)İSTANBUL-ANADOLU(DUDULLU)*(00:45)GEBZE*(06:00)İZMİR*(07:30)AYDIN*(07:50)ÇİNE*(08:30)YATAĞAN*(08:45)MUĞLA*(09:15)AKYAKA (YOL AYRIMI)*(10:00)KÖYCEĞİZ*(10:30)ORTACA*(10:45)DALAMAN*(11:15)GÖCEK*(11:30)FETHİYE&lt;/Durak&gt;&#13;
+		&lt;guzduraklar&gt;*(22:30)İSTANBUL-AVRUPA(ESENLER),*(22:55)İSTANBUL-AVRUPA(ALİBEYKÖY,*(00:15)İSTANBUL-ANADOLU(DUDULLU),*(00:45)GEBZE,*(06:00)İZMİR,*(07:30)AYDIN,*(07:50)ÇİNE,*(08:30)YATAĞAN,*(08:45)MUĞLA,*(09:15)AKYAKA (YOL AYRIMI),*(10:00)KÖYCEĞİZ,*(10:30)ORTACA,*(10:45)DALAMAN,*(11:15)GÖCEK,*(11:30)FETHİYE&lt;/guzduraklar&gt;&#13;
+		&lt;kalkisvarisduraklar&gt;*(22:55)İSTANBUL-AVRUPA(ALİBEYKÖY,*(00:15)İSTANBUL-ANADOLU(DUDULLU),*(00:45)GEBZE,*(06:00)İZMİR&lt;/kalkisvarisduraklar&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+		&lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+		&lt;satilabilirkoltuksay&gt;36&lt;/satilabilirkoltuksay&gt;&#13;
+		&lt;kalkis&gt;3401&lt;/kalkis&gt;&#13;
+		&lt;varis&gt;3500&lt;/varis&gt;&#13;
+	&lt;/sefer&gt;&#13;
+	&lt;sefer&gt;&#13;
+		&lt;id&gt;3045106&lt;/id&gt;&#13;
+		&lt;guzergah&gt;ESENLER-İZMİR-ISPARTA&lt;/guzergah&gt;&#13;
+		&lt;kalkistarihi&gt;28/03/2020&lt;/kalkistarihi&gt;&#13;
+		&lt;saat&gt;23:25&lt;/saat&gt;&#13;
+		&lt;Varsaat&gt;06:30&lt;/Varsaat&gt;&#13;
+		&lt;plaka&gt;MANPAMUKYO&lt;/plaka&gt;&#13;
+		&lt;model&gt;P146&lt;/model&gt;&#13;
+		&lt;modelkoltuksay&gt;37&lt;/modelkoltuksay&gt;&#13;
+		&lt;modelaciklama&gt;** YENİ OTOBANDAN GİDER **&lt;/modelaciklama&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+		&lt;normal&gt;104.&lt;/normal&gt;&#13;
+		&lt;hemenal&gt;104.00&lt;/hemenal&gt;&#13;
+		&lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+		&lt;ToplamYolcu&gt;1&lt;/ToplamYolcu&gt;&#13;
+		&lt;Durak&gt;*(23:25)İSTANBUL-AVRUPA(ALİBEYKÖY*(00:45)İSTANBUL-ANADOLU(DUDULLU)*(01:15)GEBZE*(03:45)KONAKOĞLU MOLA YERİ*(07:00)İZMİR*(08:20)AYDIN*(09:00)NAZİLLİ*(10:00)SARAYKÖY*(10:30)DENİZLİ*(11:30)DAZKIRI*(11:45)DİNAR*(12:15)KECIBORLU (YOL AYRIMI)*(12:45)ISPARTA&lt;/Durak&gt;&#13;
+		&lt;guzduraklar&gt;*(23:00)İSTANBUL-AVRUPA(ESENLER),*(23:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(00:45)İSTANBUL-ANADOLU(DUDULLU),*(01:15)GEBZE,*(03:45)KONAKOĞLU MOLA YERİ,*(07:00)İZMİR,*(08:20)AYDIN,*(09:00)NAZİLLİ,*(10:00)SARAYKÖY,*(10:30)DENİZLİ,*(11:30)DAZKIRI,*(11:45)DİNAR,*(12:15)KECIBORLU (YOL AYRIMI),*(12:45)ISPARTA&lt;/guzduraklar&gt;&#13;
+		&lt;kalkisvarisduraklar&gt;*(23:25)İSTANBUL-AVRUPA(ALİBEYKÖY,*(00:45)İSTANBUL-ANADOLU(DUDULLU),*(01:15)GEBZE,*(03:45)KONAKOĞLU MOLA YERİ,*(07:00)İZMİR&lt;/kalkisvarisduraklar&gt;&#13;
+		&lt;modelozellik&gt;PAMUKYOL EKRANLI PRIZ BUYUKEKRAN ANDROID PAMUKYOL&lt;/modelozellik&gt;&#13;
+		&lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+		&lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+		&lt;satilabilirkoltuksay&gt;36&lt;/satilabilirkoltuksay&gt;&#13;
+		&lt;kalkis&gt;3401&lt;/kalkis&gt;&#13;
+		&lt;varis&gt;3500&lt;/varis&gt;&#13;
+	&lt;/sefer&gt;&#13;
+	&lt;sefer&gt;&#13;
+		&lt;id&gt;3052297&lt;/id&gt;&#13;
+		&lt;guzergah&gt;ALİBEYKÖY-DUDULLU-İZMİR&lt;/guzergah&gt;&#13;
+		&lt;kalkistarihi&gt;28/03/2020&lt;/kalkistarihi&gt;&#13;
+		&lt;saat&gt;23:45&lt;/saat&gt;&#13;
+		&lt;Varsaat&gt;05:30&lt;/Varsaat&gt;&#13;
+		&lt;plaka&gt;JUMBO34&lt;/plaka&gt;&#13;
+		&lt;model&gt;J500&lt;/model&gt;&#13;
+		&lt;modelkoltuksay&gt;34&lt;/modelkoltuksay&gt;&#13;
+		&lt;modelaciklama&gt;**MOLASIZ* YENİ OTOBANDAN GİDER**&lt;/modelaciklama&gt;&#13;
+		&lt;modelozellik&gt;JUMBO EKRANLI PRIZ BUYUKEKRAN ANDROID TEKNOBUS&lt;/modelozellik&gt;&#13;
+		&lt;aractipi&gt;2+1&lt;/aractipi&gt;&#13;
+		&lt;normal&gt;119.&lt;/normal&gt;&#13;
+		&lt;hemenal&gt;119.00&lt;/hemenal&gt;&#13;
+		&lt;aktiffiyat&gt;5.BASAMAK&lt;/aktiffiyat&gt;&#13;
+		&lt;ToplamYolcu&gt;0&lt;/ToplamYolcu&gt;&#13;
+		&lt;Durak&gt;*(23:45)İSTANBUL-AVRUPA(ALİBEYKÖY*(01:00)İSTANBUL-ANADOLU(DUDULLU)*(02:30)BURSA*(05:45)İZMİR&lt;/Durak&gt;&#13;
+		&lt;guzduraklar&gt;*(23:45)İSTANBUL-AVRUPA(ALİBEYKÖY,*(01:00)İSTANBUL-ANADOLU(DUDULLU),*(02:30)BURSA,*(05:45)İZMİR&lt;/guzduraklar&gt;&#13;
+		&lt;kalkisvarisduraklar&gt;*(23:45)İSTANBUL-AVRUPA(ALİBEYKÖY,*(01:00)İSTANBUL-ANADOLU(DUDULLU),*(02:30)BURSA,*(05:45)İZMİR&lt;/kalkisvarisduraklar&gt;&#13;
+		&lt;modelozellik&gt;JUMBO EKRANLI PRIZ BUYUKEKRAN ANDROID TEKNOBUS&lt;/modelozellik&gt;&#13;
+		&lt;maxtekbayan&gt;2&lt;/maxtekbayan&gt;&#13;
+		&lt;maxtekbay&gt;2&lt;/maxtekbay&gt;&#13;
+		&lt;satilabilirkoltuksay&gt;34&lt;/satilabilirkoltuksay&gt;&#13;
+		&lt;kalkis&gt;3401&lt;/kalkis&gt;&#13;
+		&lt;varis&gt;3500&lt;/varis&gt;&#13;
+	&lt;/sefer&gt;&#13;
+&lt;/root&gt;</body>
+        <contentEncodings/>
+        <httpHeaders/>
+        <httpStatusCode>200</httpStatusCode>
+        <mockResponseName>search response</mockResponseName>
+    </response>
+</restEvent>

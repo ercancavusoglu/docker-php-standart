@@ -1,0 +1,128 @@
+version: '3'
+services:
+  nginx:
+    build:
+      context: ./docker/nginx
+    volumes:
+      - ./docker/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./docker/nginx/conf.d/:/etc/nginx/conf.d
+      #      - app-sync:/var/www/bus:delegated
+      #      - vendor-sync:/var/www/bus/vendor:delegated
+      #      - node-modules-sync:/var/www/bus/node_modules:delegated
+      #      - ../enuygun-account:/var/www/account:delegated
+      - ./../bus/:/var/www/bus:delegated
+      - ./../bus-admin/:/var/www/bus-admin:delegated
+    depends_on:
+      - php
+    ports:
+      - "80:80"
+      - "443:443"
+  mysql:
+    build:
+      context: ./docker/mysql
+    restart: on-failure
+    volumes:
+      - ./docker/mysql/data:/var/lib/mysql
+      - ./docker/mysql/init/:/docker-entrypoint-initdb.d/
+    environment:
+      MYSQL_DATABASE: 'enuygun_bus'
+      MYSQL_USER: 'user'
+      MYSQL_PASSWORD: 'password'
+      MYSQL_ROOT_PASSWORD: 'root'
+    privileged: true
+    ports:
+      - 3306:3306
+  php:
+    build:
+      context: ./docker/php
+      args:
+        - WITH_XDEBUG=true
+    depends_on:
+      - mysql
+    volumes:
+      - ./../bus/:/var/www/bus:delegated
+      - ./../bus-admin/:/var/www/bus-admin:delegated
+      #      - app-sync:/var/www/bus:delegated
+      #      - vendor-sync:/var/www/bus/vendor:delegated
+      #      - node-modules-sync:/var/www/bus/node_modules:delegated
+      #      - ./docker/php/www.conf:/usr/local/etc/php-fpm.d/www.conf:cached
+      #      - ../enuygun-account:/var/www/account:delegated
+      - ./docker/php/xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+      - ./docker/php/data/.ash_history:/root/.ash_history:cached
+      - ~/.ssh/:/root/.ssh/
+  mongo:
+    build:
+      context: ./docker/mongo
+    ports:
+      - 27017:27017
+
+#  elasticsearch:
+#    build:
+#      context: ./docker/elasticsearch
+#    volumes:
+#      - ./docker/elasticsearch/data:/usr/share/elasticsearch/data
+#    environment:
+#      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+#    ports:
+#      - 9200:9200
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    ports:
+      - 15672:15672
+      - 5672:5672
+    environment:
+      RABBITMQ_DEFAULT_USER: rabbitmq
+      RABBITMQ_DEFAULT_PASS: rabbitmq
+      RABBITMQ_DEFAULT_VHOST: /
+
+  memcached:
+    image: memcached:1.5-alpine
+    ports:
+      - 11211:11211
+
+  js:
+    build:
+      context: ./docker/node
+    volumes:
+      - ./../bus/:/var/www/bus:delegated
+      - ./../bus-admin/:/var/www/bus-admin:delegated
+      #      - vendor-sync:/var/www/bus/vendor:delegated
+      #      - app-sync:/var/www/bus:delegated
+      #      - node-modules-sync:/var/www/bus/node_modules:cached
+      #      - ../enuygun-account:/var/www/account:delegated
+      - ~/.ssh:/root/.ssh
+    working_dir: '/var/www/bus'
+    tty: true
+
+  go:
+    build:
+      context: ./docker/go
+    environment:
+      - CHANGELOG_PROJECT_DIR=/var/www/bus
+    volumes:
+      - ./../bus/:/var/www/bus:delegated
+      - ./../bus-admin/:/var/www/bus-admin:delegated
+      - ./docker/go/data/.ash_history:/root/.ash_history
+      - ~/.ssh:/root/.ssh
+    tty: true
+
+#  mockserver:
+#    build:
+#      context: ./docker/mockserver
+#    ports:
+#      - 8080:8080
+#    volumes:
+#      - ./docker/mockserver/data:/root/.castlemock
+#    expose:
+#      - 8080
+volumes:
+  app-sync:
+    external: true
+  vendor-sync:
+    external: true
+  node-modules-sync:
+    external: true
+networks:
+  bus-proxy:
+    external: true
